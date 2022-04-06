@@ -1,0 +1,74 @@
+.root{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.root div{
+  border: 1px solid black;
+}
+
+/* header */
+.root>div:nth-child(1){
+  width:100%;
+  height:40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.root>div:nth-child(1)>div:nth-child(1){
+  width:20%;
+  height:10%;
+}
+
+.root>div:nth-child(1)>div:nth-child(2){
+  width:90%;
+  height:15%;
+}
+
+.root>div:nth-child(1)>div:nth-child(3){
+  width:25%;
+  height:50%;
+}
+
+
+
+/* main */
+.root>div:nth-child(2){
+  width:90%;
+  height:45%;
+}
+
+.root>div:nth-child(2)>div:nth-child(1){
+  width:20%;
+  height:10%;
+}
+
+.root>div:nth-child(2)>div:nth-child(2){
+  width:100%;
+  height:13%;
+  position: relative;
+  top: -20px;
+}
+
+.root>div:nth-child(2)>div:nth-child(3){
+  width:100%;
+  height:70%;
+  /* display: flex; */
+  /* flex-direction: column;
+  justify-content: space-around; */
+}
+
+
+
+
+
+/* footer */
+.root>div:nth-child(3){
+  width:100%;
+  height:10%;
+}
